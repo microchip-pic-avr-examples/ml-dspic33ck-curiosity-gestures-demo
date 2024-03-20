@@ -1,4 +1,4 @@
-# ml-dspic33ck-curiosity-gestures-demo v1.0.0
+# dspic33ck-curiosity-ml-gestures-demo v1.0.0
 ### Release Highlights
 
 
