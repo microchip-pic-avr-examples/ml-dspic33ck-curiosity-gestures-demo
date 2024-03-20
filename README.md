@@ -5,7 +5,7 @@
 </picture> 
 
 
-## dsPIC33CK DSC ML Gestures Demo
+## dsPIC33CK DSC ML Gestures Recognition Demo
 
 | ![Deployed gesture recognizer](images/gesture-demo3.gif) |
 | :--: |
@@ -68,7 +68,7 @@ The firmware can be thought of as running in one of four as reflected by the onb
 | --- | --- | --- |
 | Error |	LED3 (RED) LED lit |	Fatal error. (Do you have the correct sensor plugged in?). |
 | Buffer Overflow |	LED1 and LED3 (RED) LED lit for 5 seconds	| Processing is not able to keep up with real-time; data buffer has been reset. |
-| Recognized Gesture |  LED3 (GREEN) flashing according to gesture class except Idle gesture class LED3(Green) Lit only |	One of the known gestures has been detected. |
+| Recognized Gesture |  LED3 (GREEN) LED flashing according to gesture class except Idle gesture class LED3(Green) LED lit only |	One of the known gestures has been detected. |
 
 In addition, the firmware also prints the classification output for each inference over the UART port. To read the UART port output, use the terminal in MPLAB Data Visualizer, like shown in video above, with the following settings:
 
